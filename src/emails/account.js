@@ -57,7 +57,7 @@ const sendConfirmationEmail = async (name, email, user) => {
       ],
       sender: {
         name: "SkipAPay",
-        email: "support@cpdfcu-sap.com",
+        email: "sap@nationalpolicefcu.com",
       },
       subject: "Confirmation of Online Form Submission!",
       htmlContent: `
@@ -104,7 +104,7 @@ const sendTestEmail = async (name = "SAP Email Server", email) => {
       ],
       sender: {
         name: "SkipAPay",
-        email: "support@cpdfcu-sap.com",
+        email: "sap@nationalpolicefcu.com",
       },
       subject: "Confirmation of SAP email server!",
       htmlContent: `
